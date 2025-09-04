@@ -51,5 +51,3 @@ console.log(num)
 num2 = Math.round(3.5)
 console.log(num2)
 
-num3 = Math.ceal(3,2)
-console.log(num3)
