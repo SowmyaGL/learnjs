@@ -38,3 +38,11 @@ const p = new Promise((resolve,reject) => {
 
     p.then((message) => console.log(message))
     //.catch((message) =>console.log(message))
+
+    //=====================================
+
+    //methods related to promises
+    //1 : promise.all
+    //2 : promise.any
+    //3 : promise.race
+    //4 : promise.allSettled
