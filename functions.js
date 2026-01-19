@@ -1,4 +1,4 @@
-//based on conditiuons
+//based on conditions
 //if (true){
 
 //}
@@ -33,6 +33,11 @@ function add(num1,num2){
 
 add(3,7)
 
+
+//function with return type
+
+
+
 function multiply(){
     console.log(4)
     console.log(5)
@@ -41,3 +46,19 @@ function multiply(){
 }
 x=multiply()
 console.log(x)
+
+//2 types of functions
+
+//1. functions with params
+
+
+//2. function without params
+//3. function with return type
+
+//es6 arrow functions
+ add=() => {
+    console.log(2)
+    console.log(5)
+    console.log(2+5)
+}
+add()
