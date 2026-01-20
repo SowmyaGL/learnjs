@@ -96,6 +96,8 @@ arr12 = [2,9,6,7,4,3]
 arr13 = arr12.sort()
 console.log(arr13)
 
+
+
 //map
 //slice
 //splic
