@@ -43,7 +43,7 @@ console.log(str.length)
 
 
 str = "    hfhj    "
-console.log(str.trim())      //space remove starting trin start method trim end end space delete
+console.log(str.trim())      //space remove starting trim start method trim end end space delete
 
 //charAt()
 
