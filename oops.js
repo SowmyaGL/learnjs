@@ -54,65 +54,65 @@
 
 
 
-// class A{
+ class A{
 
-//     m1(){
+    m1(){
 
-//         console.log("This is M1 Method")
-//     }
+         console.log("This is M1 Method")
+    }
 
-//     m2(){
+    m2(){
 
-//         console.log("This is M2 Method")
-//     }
+        console.log("This is M2 Method")
+    }
 
-//     m3(){
+     m3(){
 
-//         console.log("This is M3 Method")
-//     }
-// }
-
-
-// class B extends A{
+        console.log("This is M3 Method")
+    }
+ }
 
 
-//     m4(){
-
-//         console.log("This is M4 Method")
-//     }
-
-//     m5(){
-
-//         console.log("This is M5 Method")
-//     }
-
-//     m6(){
-
-//         console.log("This is M6 Method")
-//     }
+class B extends A{
 
 
-// }
+    m4(){
 
-// class C extends A {
+        console.log("This is M4 Method")
+    }
+
+    m5(){
+
+        console.log("This is M5 Method")
+    }
+
+    m6(){
+
+        console.log("This is M6 Method")
+    }
 
 
-//     m7(){
+}
 
-//         console.log("This is M7 Method")
-//     }
+class C extends A {
 
-//     m8(){
 
-//         console.log("This is M8 Method")
-//     }
+    m7(){
 
-//     m9(){
+        console.log("This is M7 Method")
+    }
 
-//         console.log("This is M9 Method")
-//     }
+    m8(){
 
-// }
+        console.log("This is M8 Method")
+    }
+
+    m9(){
+
+        console.log("This is M9 Method")
+    }
+
+}
 
 // const obj = new C()
 

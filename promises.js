@@ -1,48 +1,114 @@
-const p = new Promise((resolve,reject) => {
-    let x = 1 + 1;
 
-    if (x === 2){
-        resolve("success");
 
-    }else {
-         reject("fail");
-    }
-        
-    });
-    //  p = "success" 
+
+console.log("Raju")
+
+console.log("Darshan")
+
+console.log("Deekshth")
+
+
+//===============================
+
+// setTimeout( function , 8000)
+
+console.log("Raju")
+
+
+setTimeout(function displaymessage(){
+
+    console.log("Darshan")
+
+ }, 5000);
+
+ console.log("Deekshth")
+
+
+
+ function displayresult(value){
+
+    console.log(value)
+ }
+
+
+function devideresultby2(value){
+
      
-    //  p = "fail"
+    console.log(value/2)
+}
 
-    console.log(p)
 
-    p.then((message) => console.log(message))
+function add(num1, num2, callback){
 
-   // ====================================================
+    sum = num1+ num2   //15
 
-   const p = new Promise((resolve,reject) => {
-    let x = 1 + 1;
+    callback(sum)
+}
 
-    if (x === 2){
-        resolve("success");
+add(4,6, displayresult) //10
 
-    }else {
-         reject("fail");
-    }
-        
-    });
-    //  p = "success" 
-     
-    //  p = "fail"
+add(4,6, devideresultby2) //5
 
-    console.log(p)
 
-    p.then((message) => console.log(message))
-    //.catch((message) =>console.log(message))
+// function (){
 
-    //=====================================
+//     console.log("this is anonimous function")
+// }
 
-    //methods related to promises
-    //1 : promise.all
-    //2 : promise.any
-    //3 : promise.race
-    //4 : promise.allSettled
+// We use anonimous function as call back function 
+
+// arr = [3,6,7,8,9]
+
+// oddnumbers = arr.filter( ele => ele%2 !==0)
+
+// console.log(oddnumbers)
+
+
+//function which will accepts the callback as argument/parameter then that function is higher order
+
+//callback function will be called as closure function when it taking data from the higher order function 
+
+function printmessage(){
+
+    console.log("this is callback function")
+
+}
+
+function displaydata( callback ){
+
+    console.log("This is a higher order funtion")
+
+    callback()  // this 
+}
+
+
+
+//displaydata(printmessage()) // this wrong syntax
+
+displaydata(printmessage)
+
+
+function add( callback){
+
+    let sum = 10  //15
+
+    callback(sum) // closure function
+}
+
+
+function x ( callback){
+    // stament 
+}
+
+function a(callback){
+
+    //statement 
+}
+
+
+function B(callback){
+
+    //statement 
+}
+
+//callback hell 
